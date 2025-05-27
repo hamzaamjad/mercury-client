@@ -1,0 +1,1 @@
+"""Mercury client tests."""
