@@ -1,25 +1,24 @@
 # Mercury Client
 
-![Test](https://github.com/hamzaamjad/mercury-client/workflows/Test/badge.svg)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![CI Status](https://github.com/hamzaamjad/mercury-client/actions/workflows/test.yml/badge.svg)
+[![Python Version](https://img.shields.io/pypi/pyversions/mercury-api-client.svg)](https://pypi.org/project/mercury-api-client/)
+[![PyPI Version](https://img.shields.io/pypi/v/mercury-api-client.svg)](https://pypi.org/project/mercury-api-client/)
 
-A production-ready Python SDK for the Inception Labs Mercury diffusion-LLM API, providing both synchronous and asynchronous interfaces with full type safety.
+Python SDK for Inception Labs Mercury diffusion-LLM API.
 
 ## Features
 
-- 🚀 **Synchronous and Asynchronous Support** - Use `MercuryClient` or `AsyncMercuryClient` based on your needs
-- 🔄 **Automatic Retry Logic** - Built-in exponential backoff with jitter for transient failures
-- 🎭 **Full Type Safety** - Complete type hints and runtime validation with Pydantic
-- 🌊 **Streaming Support** - Real-time streaming for chat completions
-- 🛡️ **Robust Error Handling** - Typed exceptions for different error scenarios
-- 🔧 **Flexible Configuration** - Customize timeouts, retries, and more
-- 📝 **OpenAI-Compatible Interface** - Familiar API design for easy migration
+- 🚀 **Full API Coverage**: Chat completions with streaming support
+- 🔄 **Async/Sync Support**: Both synchronous and asynchronous clients
+- 🛡️ **Type Safety**: Full type hints with Pydantic models
+- 🔁 **Retry Logic**: Built-in exponential backoff for reliability
+- 📝 **Comprehensive Logging**: Detailed logging for debugging
+- ⚡ **Streaming**: Real-time response streaming for chat completions
 
 ## Installation
 
 ```bash
-pip install mercury-client
+pip install mercury-api-client
 ```
 
 Or install from source:
